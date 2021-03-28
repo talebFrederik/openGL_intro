@@ -18,14 +18,22 @@
     <ClCompile Include="openGL_intro.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ShaderUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="glew32.dll">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="glfw3.dll">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="glew32.dll">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="simple.vertexshader">
